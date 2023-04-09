@@ -1,0 +1,102 @@
+        * {
+            box-sizing: border-box;
+            font-family: 微軟正黑體
+        }
+
+        .co {
+            color: #D4A373;
+        }
+
+        body {
+            background-color: #FAEDCD;
+            margin: 0px;
+        }
+
+        header {
+
+            background-color: #CCD5AE;
+            text-align: center;
+            color: white;
+            margin: 0px;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #E9EDC9;
+            font-family: Arial;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        nav a {
+            padding: 14px 16px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #E9EDC9;
+            color: white;
+        }
+
+        footer {
+            background-color: #E9EDC9;
+            text-align: center;
+            color: #444444;
+            padding: 10px;
+        }
+
+        main {
+            padding: 20px;
+
+        }
+
+        article {
+            float: right;
+            width: 73%;
+
+        }
+
+        aside {
+            float: left;
+            width: 25%;
+            height: 100%;
+            text-align: center;
+
+        }
+
+
+
+        .card {
+            /*background-color: white;*/
+
+            position: relative;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            background-image: url(image/card_img.jpg);
+            background-size: cover;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        @media screen and (max-width:800px) {
+
+            article,
+            aside {
+                float: none;
+                width: 100%;
+            }
+
+            .card {
+                padding: 10%;
+                margin: 15px 0px;
+
+            }
+
+            .image {
+                max-width: 10px;
+                height: 10px;
+            }
+        }
